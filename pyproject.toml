@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "service"
+version = "0.1.0"
+description = ""
+authors = ["zauresha95"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sqlalchemy = "^2.0.21"
+fastapi = "^0.103.2"
+pydantic = "^1.10.7"
+uvicorn = "^0.23.2"
+asyncpg = "^0.28.0"
+alembic = "^1.12.0"
+python-dotenv = "^1.0.0"
+asyncio = "^3.4.3"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
